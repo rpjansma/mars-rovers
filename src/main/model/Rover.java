@@ -2,6 +2,7 @@ package main.model;
 
 import main.exceptions.NotLaunchedException;
 import main.exceptions.PositionNotExistException;
+import main.exceptions.PositionOccupiedException;
 import main.exceptions.UnknownHeadingException;
 import main.model.enums.Direction;
 import main.model.enums.Heading;
@@ -70,7 +71,7 @@ public class Rover {
     }
 
     public String reportStatus() {
-        return name + " " +
+        return name + " at position " +
                 reportPosition();
     }
 
@@ -122,6 +123,7 @@ public class Rover {
 
     private void moveForward() {
         RoverCoordinates newCoordinates = roverCoordinates.moveForward(heading);
+        if (plateau.coordinatesOccupied(newCoordinates)) throw new PositionOccupiedException();
         if (newCoordinates.positionExists(plateau)) roverCoordinates = newCoordinates;
         else {
             throw new PositionNotExistException();

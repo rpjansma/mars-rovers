@@ -44,9 +44,10 @@ public class Main {
                 rover.processInstructions(directionsInstructions);
                 out.println("Report: " + rover.reportStatus());
             } catch (Exception ex) {
-                scanner.close();
+                out.println(ex.getMessage());
             }
         }
+        scanner.close();
         out.println("That's more than a footstep for the mankind afterall. Thanks for exploring with us!");
     }
 
