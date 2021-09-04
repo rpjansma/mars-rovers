@@ -2,19 +2,18 @@
 
 ## HOW TO RUN
 
-* Unzip the project to access the archives;
+```Download this repo or clone it;```
 
 __You will need JDK installed in your machine! Project developed with Java 11__
 
-* Open the project directory in your favorite IDE
+```Open the project directory in your favorite IDE```
 
-* Run the Main Class
+```Run the Main Class```
 
 __*You can choose another source for the test file changing the path from line 19 of Main Class*__
 
-__*Unit tests can be run in the class RoversDeployTests*__
+__*Unit tests can be tested in the class RoversDeployTests*__
 
-Thanks for the opportunity :)
 
 ### Problem two: MARS Rovers
 
