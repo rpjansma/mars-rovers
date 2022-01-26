@@ -2,7 +2,7 @@
 
 ## HOW TO RUN
 
-```Download this repo or clone it;```
+```Download this repo's zip or clone it;```
 
 __You will need JDK installed in your machine! Project developed with Java 11__
 
@@ -15,7 +15,7 @@ __*You can choose another source for the test file changing the path from line 1
 __*Unit tests can be tested in the class RoversDeployTests*__
 
 
-### Problem two: MARS Rovers
+### MARS Rovers
 
 ###### __**Rules**__ 
 
@@ -25,7 +25,7 @@ __*Unit tests can be tested in the class RoversDeployTests*__
 
 ###### You should provide sufficient evidence that your solution is complete by, as a minimum, indicating that it works correctly against the supplied test data
 
-#### Description
+#### Problem Description
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars. This plateau, which is curiously rectangular, must be navigated by the rovers so that their on-board cameras can get a complete view of the surrounding terrain to send back to Earth.
 
@@ -48,7 +48,8 @@ OUTPUT
 The output for each rover should be its final co-ordinates and heading.
 INPUT AND OUTPUT
 
-Test Input:
+
+Test Input Example:
 
 5 5
 
