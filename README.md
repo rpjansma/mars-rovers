@@ -1,6 +1,6 @@
-#### MARS Rovers Problem Solved
+#### MARS Rovers
 
-## HOW TO RUN
+## HOW TO RUN THE PROJECT
 
 ```Download this repo's zip or clone it;```
 
